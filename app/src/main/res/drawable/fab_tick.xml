@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <gradient android:endColor="#E8E1FB" android:startColor="#B294F3" android:angle="45"  />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/baseline_task_alt_24" android:right="16dp" android:left="16dp" android:top="16dp" android:bottom="16dp">
+
+    </item>
+</layer-list>

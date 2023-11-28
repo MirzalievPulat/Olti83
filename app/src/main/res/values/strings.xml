@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Olti83</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content">Kotlin - bu Android dasturlarini ishlab chiqish uchun juda mos keladi, zamonaviy tilning barcha afzalliklarini Android platformasiga hech qanday yangi cheklovlarsiz kiritadi:\n\nMoslashuvchanlik: Kotlin JDK 6-ga to\'liq mos keladi, Kotlin ilovalari eski Android qurilmalarida muammosiz ishlashini ta\'minlaydi. Kotlin vositasi Android Studio-da to\'liq qo\'llab-quvvatlanadi va Android OS tizimiga mos keladi.\n\nSamaradorlik: Kotlin loyihalarda bytekod tuzilishi tufayli Java-ga o\'xshash ekvivalent kabi tez ishlaydi. Kotlin-ning ichki funksiyalarini qo\'llab-quvvatlashi bilan lambdalardan foydalanadigan kod ko\'pincha Java-da yozilgan koddan tezroq ishlaydi.\nKotlin - bu Android dasturlarini ishlab chiqish uchun juda mos keladi, zamonaviy tilning barcha afzalliklarini Android platformasiga hech qanday yangi cheklovlarsiz kiritadi:
+</string>
+</resources>

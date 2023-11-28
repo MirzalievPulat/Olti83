@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="uz.frodo.olti83.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="uz.frodo.olti83.fragments.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/moduleFragment"
+        android:name="uz.frodo.olti83.fragments.ModuleFragment"
+        android:label="fragment_module"
+        tools:layout="@layout/fragment_module" />
+    <fragment
+        android:id="@+id/lessonFragment"
+        android:name="uz.frodo.olti83.fragments.LessonFragment"
+        android:label="fragment_lesson"
+        tools:layout="@layout/fragment_lesson" />
+    <fragment
+        android:id="@+id/courseEditFragment"
+        android:name="uz.frodo.olti83.fragments.CourseEditFragment"
+        android:label="fragment_course_edit"
+        tools:layout="@layout/fragment_course_edit" />
+    <fragment
+        android:id="@+id/moduleSttingsFragment"
+        android:name="uz.frodo.olti83.fragments.ModuleSttingsFragment"
+        android:label="fragment_module_sttings"
+        tools:layout="@layout/fragment_module_sttings" />
+    <fragment
+        android:id="@+id/moduleEditFragment"
+        android:name="uz.frodo.olti83.fragments.ModuleEditFragment"
+        android:label="fragment_module_edit"
+        tools:layout="@layout/fragment_module_edit" />
+    <fragment
+        android:id="@+id/lessonSettingsFragment"
+        android:name="uz.frodo.olti83.fragments.LessonSettingsFragment"
+        android:label="fragment_lesson_settings"
+        tools:layout="@layout/fragment_lesson_settings" />
+    <fragment
+        android:id="@+id/lessonEditFragment"
+        android:name="uz.frodo.olti83.fragments.LessonEditFragment"
+        android:label="fragment_lesson_edit"
+        tools:layout="@layout/fragment_lesson_edit" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="uz.frodo.olti83.fragments.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+</navigation>
